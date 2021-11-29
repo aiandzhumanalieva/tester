@@ -1,0 +1,124 @@
+:root{
+    --main-text-color: #FB3B2D;
+    --bg-btn-color:#FAEDD4;
+}
+
+/* header */
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+} 
+.header{
+    background:var(--bg-btn-color);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 33.881786pt;
+}
+
+.header_logo img{
+max-width: 361px;
+height: 79px;
+}
+
+.header_app img{
+    padding-right: 20px;
+    Width:133,24px;
+    Height:38,05px;
+}
+
+.header_language{
+    display: flex;
+    align-items: center;
+}
+.header_language--item{
+    list-style-type: none;
+    padding-right: 15.8115pt;
+    font-size:  1.188rem; ;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.header_subtitle--center{
+ background: var(--main-text-color);
+
+}
+
+.header_subtitle--center h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--bg-btn-color);
+    text-align: center;
+    font-size: 1.188rem;
+    padding-top: 28px; 
+    margin-bottom: 117.456857pt;
+}
+ .header_subtitle--button{
+display: flex;
+justify-content: center;
+}
+.header_subtitle--button button{
+    border: none;
+    outline: none;
+    margin-right: 3px;
+    margin-bottom: 33.128857pt;
+    background: var(--bg-btn-color);
+    color: var(--main-text-color);
+    font-size: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.food_header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 0;
+}
+.food_header--left{
+max-width: 600px;
+ width: 100%;
+}
+.food_header--left h1{
+    color: var(--main-text-color);
+    font-size: 65px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: Arial;
+    text-align: left;
+}
+
+.food_header--left p{
+    font-size: 22px;
+    color: var(--main-text-color);
+    max-width: 594px;
+    width: 100%;
+}
+.food_header--button{
+    max-width: 600px;
+    width: 100%;
+}
+.food_header--button button{
+    border: none;
+    outline: none;
+    height: 112px;
+    background: var(--main-text-color);
+    color: var(--bg-btn-color);
+    font-size: 37px;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial;
+    padding: 180 25;
+}
+.food_header--right{
+        
+}
+.food_header--bottom{
+    padding-bottom: 0;
+}
